@@ -122,6 +122,8 @@ function gender_sex_validation() {
     read gender;
 
     echo "Ah I forgot that it's 2k22. Does it even matter? (～￣▽￣)～"
+    echo "Now GET THE HELL OUT OF HERE!!! - @ThePrimeagen"
 
+    # Fucking slaves...
     unset gender;
 }
