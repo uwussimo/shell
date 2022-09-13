@@ -135,6 +135,16 @@ function gender_sex_validation() {
     unset gender;
 }
 
+function senior_developer() {
+    if [ -z "$1" ]; then
+        echo "Write something idiot"
+        return
+    fi
+    echo "Searching for $@"
+    search_string="$@"
+    cross_unix_link_ditcher "https://www.google.com/search?q=$search_string"
+}
+
 # Let's draw some cancer
 # output taken from: figlet -f slant $CANCER | lolcat --force >> random.txt 
 function cancer() {
