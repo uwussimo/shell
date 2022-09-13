@@ -116,7 +116,10 @@ function send_nudes() {
     echo "(.)_(.)"
     echo "   |   "
     echo "   |   "
-    echo "  / \  "
+    echo "  ___  "
+    echo "  \ /  "
+    echo " /   \ "
+    # I suk at drawing, forgive me pwease //
 }
 
 # Oh my, you use debian family distro?
