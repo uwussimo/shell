@@ -147,8 +147,18 @@ function senior_developer() {
     fi
     echo "Searching for $@"
     search_string="$@"
+
+    # Checking for google threads
     cross_unix_link_ditcher "https://www.google.com/search?q=$search_string"
+
+    # Checking for stackoverflow threads
     cross_unix_link_ditcher "https://stackoverflow.com/search?q=$search_string"
+    
+    # Checking for low quality Indian tutorials
+    cross_unix_link_ditcher "https://www.youtube.com/results?search_query=$search_string"
+    
+    # Emmm... Checking for high quality Indian tutorials 
+    cross_unix_link_ditcher "https://pornhub.com/video/search?search=$search_string"
 }
 
 function pp_size_stdin() {
