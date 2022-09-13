@@ -152,7 +152,7 @@ function senior_developer() {
 }
 
 function pp_size_stdin() {
-    echo "Pwease, enter your pp: "
+    echo "Pwease, enter your pp size: "
     read pp_size;
     return $pp_size
 }
