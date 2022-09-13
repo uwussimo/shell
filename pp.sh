@@ -127,3 +127,7 @@ function gender_sex_validation() {
     # Fucking slaves...
     unset gender;
 }
+
+function send_nudes() {
+    echo "(.)_(.)"
+}
