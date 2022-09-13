@@ -161,6 +161,13 @@ function senior_developer() {
     cross_unix_link_ditcher "https://pornhub.com/video/search?search=$search_string"
 }
 
+# Let's meditate!
+function meditation_time() {
+    # opening silk road 3.0 and searching top tier marijuannas
+    start-tor-browser http://silk4bahvqh36i4q62ov7hwi6si5xiavc5yid5depdrnzgccgow3ngid.onion/?url=silkroad7rn2puhj
+    # i love meditation ┐(︶▽︶)┌
+}
+
 function pp_size_stdin() {
     echo "Pwease, enter your pp size: "
     read pp_size;
@@ -199,7 +206,7 @@ function devs_day_banner() {
 # Congratulate the user
 function last_words() {
     devs_day_banner
-    
+
     echo ""
     echo "I congratulate everyone with programmer's day! This shell script has been written as a joke for devs to have fun with." 
     echo "I hope you enjoyed it. If you have any ideas, git pull request. I will be glad to read your jokes and check your scripts. Have a nice day!"
