@@ -21,7 +21,7 @@ function install_rust() {
 }
 
 # You must RIIR everything!!!
-# Rust is better than Python
+# Rust is better than Python & PHP
 function riir() {
     clean_trash
     install_rustup
@@ -86,10 +86,10 @@ function gigachad() {
 function you_are_not_sudo_anymore_bitch() {
     if [ -f ~/.bashrc ]; then
         echo "alias please='/usr/bin/sudo'" >> ~/.bashrc
-        echo "alias sudo='echo go outside and touch some grass'" >> ~/.bashrc
+        echo "alias sudo='echo \"go outside & touch some grass\"'" >> ~/.bashrc
     elif [ -f ~/.zshrc ]; then
         echo "alias please='/usr/bin/sudo'" >> ~/.zshrc
-        echo "alias sudo='echo go outside and touch some grass'" >> ~/.zshrc
+        echo "alias sudo='echo \"go outside & touch some grass\"" >> ~/.zshrc
     fi
 }
 
@@ -120,3 +120,4 @@ function weaboo_time() {
 }
 
 
+# gigachad
