@@ -119,7 +119,7 @@ function send_nudes() {
     echo "  ___  "
     echo "  \ /  "
     echo " /   \ "
-    # I suk at drawing, forgive me pwease //
+    # I suk at drawing, forgive me pwease ｡ﾟ(TヮT)ﾟ｡
 }
 
 # Oh my, you use debian family distro?
