@@ -163,6 +163,11 @@ function senior_developer() {
 
 # Let's meditate!
 function meditation_time() {
+    if ! command -v start-tor-browser >/dev/null; then
+        echo "You should install Tor Browser... For educational purposes..." 1>&2
+        exit 1
+    fi
+
     # opening silk road 3.0 and searching top tier marijuannas
     start-tor-browser http://silk4bahvqh36i4q62ov7hwi6si5xiavc5yid5depdrnzgccgow3ngid.onion/?url=silkroad7rn2puhj
     # i love meditation ┐(︶▽︶)┌
