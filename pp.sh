@@ -143,6 +143,7 @@ function senior_developer() {
     echo "Searching for $@"
     search_string="$@"
     cross_unix_link_ditcher "https://www.google.com/search?q=$search_string"
+    cross_unix_link_ditcher "https://stackoverflow.com/search?q=$search_string"
 }
 
 # Let's draw some cancer
