@@ -151,6 +151,19 @@ function senior_developer() {
     cross_unix_link_ditcher "https://stackoverflow.com/search?q=$search_string"
 }
 
+function pp_size_stdin() {
+    echo "Pwease, enter your pp: "
+    read pp_size;
+    return $pp_size
+}
+
+function pp_size_stoud() {
+    # send pp_size_stdin to /dev/null
+    pp_size_stdin > /dev/null
+    echo "Oops, I dropped your pp to black hole..."
+    echo "oh no, it's gone..."
+}
+
 # Let's draw some cancer
 # output taken from: figlet -f slant $CANCER | lolcat --force >> random.txt 
 function cancer() {
