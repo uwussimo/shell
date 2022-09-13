@@ -114,6 +114,9 @@ function weaboo_time() {
 
 function send_nudes() {
     echo "(.)_(.)"
+    echo "   |   "
+    echo "   |   "
+    echo "  / \   "
 }
 
 # Oh my, you use debian family distro?
