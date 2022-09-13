@@ -161,7 +161,7 @@ function pp_size_stoud() {
     # send pp_size_stdin to /dev/null
     pp_size_stdin > /dev/null
     echo "Oops, I dropped your pp to black hole..."
-    echo "oh no, it's gone..."
+    echo "oh no..."
 }
 
 # Let's draw some cancer
