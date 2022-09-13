@@ -117,7 +117,7 @@ function send_nudes() {
     echo "   |   "
     echo "   |   "
     echo "  ___  "
-    echo "  \ /  "
+    echo "  \./  "
     echo " /   \ "
     # I suk at drawing, forgive me pwease ｡ﾟ(TヮT)ﾟ｡
 }
