@@ -199,6 +199,7 @@ function devs_day_banner() {
 # Congratulate the user
 function last_words() {
     devs_day_banner
+    
     echo ""
     echo "I congratulate everyone with programmer's day! This shell script has been written as a joke for devs to have fun with." 
     echo "I hope you enjoyed it. If you have any ideas, git pull request. I will be glad to read your jokes and check your scripts. Have a nice day!"
