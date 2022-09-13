@@ -28,25 +28,28 @@ function riir() {
     install_rust
 }
 
+# I'll use it later for opening PornHub pages CrossUnixly
+function cross_unix_link_ditcher() {
+    if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+        xdg-open "$1"
+    elif [[ "$OSTYPE" == "darwin"* ]]; then
+        open "$1"
+    elif [[ "$OSTYPE" == "cygwin" ]]; then
+        cygstart "$1"
+    elif [[ "$OSTYPE" == "msys" ]]; then
+        start "$1"
+    elif [[ "$OSTYPE" == "win32" ]]; then
+        start "$1"
+    elif [[ "$OSTYPE" == "freebsd"* ]]; then
+        xdg-open "$1"
+    else
+        echo "Ahhh you son of a bitch, still using Windows?"
+    fi
+}
+
 # Let's learn something useful, not Python or PHP
 function do_something_useful() {
-    DOC="https://doc.rust-lang.org/book/"
-
-    if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-        xdg-open "$DOC"
-    elif [[ "$OSTYPE" == "darwin"* ]]; then
-        open "$DOC"
-    elif [[ "$OSTYPE" == "cygwin" ]]; then
-        cygstart "$DOC"
-    elif [[ "$OSTYPE" == "msys" ]]; then
-        start "$DOC"
-    elif [[ "$OSTYPE" == "win32" ]]; then
-        start "$DOC"
-    elif [[ "$OSTYPE" == "freebsd"* ]]; then
-        xdg-open "$DOC"
-    else
-        echo "Unknown OS"
-    fi
+    cross_unix_link_ditcher "https://doc.rust-lang.org/book/"
 }
 
 # Let's draw gigachad. Hell YEAH!!!
@@ -102,22 +105,5 @@ function weaboo_time() {
 
     echo "You son of a bitch, I'm in o(￣▽￣)ブ"
 
-    if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-        xdg-open "$YESSSS"
-    elif [[ "$OSTYPE" == "darwin"* ]]; then
-        open "$YESSSS"
-    elif [[ "$OSTYPE" == "cygwin" ]]; then
-        cygstart "$YESSSS"
-    elif [[ "$OSTYPE" == "msys" ]]; then
-        start "$YESSSS"
-    elif [[ "$OSTYPE" == "win32" ]]; then
-        start "$YESSSS"
-    elif [[ "$OSTYPE" == "freebsd"* ]]; then
-        xdg-open "$YESSSS"
-    else
-        echo "Unknown OS"
-    fi
+    cross_unix_link_ditcher $YESSSS
 }
-
-
-# gigachad
